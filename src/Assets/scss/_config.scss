@@ -1,0 +1,52 @@
+/* Vars */
+$black: #010000;
+$white: #ffffff;
+$lightGrey: #e6e6e6;
+$darkGrey: #333;
+$red: #ff1755;
+$blue: #0000FF;
+$olive: #808000;
+$green: #008000;
+$backgroundcolor: #e8f5fb;
+$lightgreen: #556B2F;
+
+
+/* Mixins */
+
+
+@mixin translateY($e) {
+  -webkit-transform: translateY($e);
+  -moz-transform: translateY($e);
+  transform: translateY($e);
+}
+
+@mixin transition($e) {
+  -webkit-transition: $e;
+  -moz-transition: $e;
+  transition: $e;
+}
+
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  color: $black;
+  font-weight: 500;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  @include transition(0.4s ease-in-out);
+  cursor: pointer;
+
+  &:hover {
+    color: $red;
+    @include transition(0.4s ease-in-out);
+  }
+
+}
+
+.container-fluid {
+  line-height: 24px;
+}

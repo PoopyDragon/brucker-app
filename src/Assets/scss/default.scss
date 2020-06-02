@@ -1,0 +1,446 @@
+@import "_config.scss";
+
+.App {
+  min-height: 100vh;
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 100px;
+}
+
+
+
+
+header {
+  position: relative;
+  display: block;
+  height:80px;
+  width: 100%;
+  background:  $lightgreen;
+  Line-Height: 100%;
+
+
+  .companyname {
+      position: absolute;
+      top: 25%; left: 90px;
+      font-family: "Impact", sans-serif;
+      font-size: 20px;
+      color: white;
+  }
+  .companynameunder {
+        position: absolute;
+        top: 55%; left: 90px;
+        font-family: "Impact", sans-serif;
+        font-size: 20px;
+        color: white;
+
+  }
+  .logo {
+          position: absolute;
+          max-height: 80px;
+          left:5px;
+          top: 0%;
+
+          //@include translateY(-100%);
+  }
+
+
+  .alumniHeader
+  {
+    font-size: 50px;
+  }
+
+  nav,
+  nav ul,
+  nav ul li {
+    margin: 0;
+    pading: 0;
+  }
+
+  .navbar {
+    height: inherit;
+    // position: absolute;
+    // top: 50%; right: 15px;
+    // @include translateY(-50%);
+      div ul {
+        float: right;
+        font-size: 20px;
+
+        li{
+          position: relative;
+          float: right;
+        //  list-style-type: none;
+        //  display: inline-block;
+          margin-right: 35px;
+
+          &.last {
+            margin: 10;
+          }
+
+          a {
+            font-size: 20px;
+            line-height: normal;
+            color: lightgray;
+          }
+        }
+      }
+      .custom-toggler.navbar-toggler {
+            border-color: white;
+            height: 40px;
+            margin-top: 10px;
+            margin-right: 10px;
+      }
+        /* Setting the stroke to green using rgb values (0, 128, 0) */
+      .custom-toggler .navbar-toggler-icon {
+
+          background-image: url(
+          "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+      }
+  }
+}
+
+
+  body{
+    background-color: $backgroundcolor;
+    position:relative;
+    height:100%;
+  }
+
+
+
+
+
+
+.homepagebody{
+  .homeLogo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    font-family: "Impact", sans-serif;
+    opacity: 0.75;
+  }
+}
+
+  .home{
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto auto;
+      height:  500px;
+
+      .Map{
+        width: 100%;
+        height: auto;
+        bottom: 500px;
+      }
+
+      .Mission{
+        width: 100%;
+        height: auto;
+        position: relative;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 30px;
+
+      }
+    }
+  }
+
+.meetTheTeam{
+  .meettheteam{
+    position: relative;
+    font-size: 60px;
+    width: 100%;
+    Line-Height: 60px;
+    font-family: "Impact", sans-serif;
+    color: $green;
+    text-align: center;
+    margin-right: 50%;
+    margin-left: 0%;
+    height: 100px;
+    top: 25px;
+  }
+
+    .description{
+      position: relative;
+      font-size: 20px;
+      Line-Height: 30px;
+      font-family: "Marker Felt", fantasy;
+      color: black;
+      text-align: center;
+      margin-right: 10%;
+      margin-left: 10%;
+    }
+  div {
+    .name {
+      position: relative;
+      font-size: 70px;
+      height: 100px;
+      Line-Height: 40px;
+      font-family: "Roboto", sans-serif;
+      color: black;
+      text-align: center;
+      margin-right: 20%;
+      margin-left: 20%;
+    }
+  }
+
+  .Tiffany {
+    position: relative;
+     width:70%;
+	   height:auto;
+  }
+
+  .Darren {
+    position: relative;
+     width: 70%;
+	   height:auto;
+  }
+
+  .Brooke {
+    position: relative;
+     width:70%;
+     height:auto;
+  }
+
+  .grid-container
+  {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px 0px;
+    //background-color: #2196f3;
+  }
+
+  .grid-container > div
+  {
+    //  background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 30px;
+  }
+}
+
+.dereksmall
+{
+  position:relative;
+  width:90%;
+  height:auto;
+}
+.derekheader
+{
+  position: relative;
+  text-align:center;
+  top:15px;
+  font-size: 50px;
+  font-family: "Georgia", serif;
+  color: red;
+}
+.derekquote
+{
+  position: relative;
+  font-size: 20px;
+  text-align:left;
+  font-family: "Helvetica", sans-serif;
+  color: black;
+  Line-Height: 40px;
+}
+
+.tiffanysmall
+{
+  position:relative;
+  width:90%;
+  height:auto;
+}
+.tiffanyheader
+{
+  position: relative;
+  text-align:center;
+  top:15px;
+  font-size: 50px;
+  font-family: "Georgia", serif;
+  color: red;
+}
+.tiffanyquote
+{
+  position: relative;
+  font-size: 20px;
+  text-align:left;
+  font-family: "Helvetica", sans-serif;
+  color: black;
+  Line-Height: 40px;
+}
+
+.darrensmall
+{
+  position:relative;
+  width:90%;
+  height:auto;
+}
+.darrenheader
+{
+  position: relative;
+  text-align:center;
+  top:15px;
+  font-size: 50px;
+  font-family: "Georgia", serif;
+  color: red;
+}
+.darrenquote
+{
+  position: relative;
+  font-size: 20px;
+  text-align:left;
+  font-family: "Helvetica", sans-serif;
+  color: black;
+  Line-Height: 40px;
+}
+.brookesmall
+{
+  position:relative;
+  width:90%;
+  height:auto;
+}
+.brookeheader
+{
+  position: relative;
+  text-align:center;
+  top:15px;
+  font-size: 50px;
+  font-family: "Georgia", serif;
+  color: red;
+}
+.brookequote
+{
+  position: relative;
+  font-size: 20px;
+  text-align:left;
+  font-family: "Helvetica", sans-serif;
+  color: black;
+  Line-Height: 40px;
+}
+
+
+.Contact{
+  .ContactTitle{
+    position: relative;
+    font-size: 60px;
+    width: 100%;
+    Line-Height: 60px;
+    font-family: "Impact", sans-serif;
+    color: $green;
+    text-align: center;
+    margin-right: 50%;
+    margin-left: 0%;
+    height: 70px;
+    top: 25px;
+  }
+  .grid-container{
+    display: grid;
+    grid-template-columns:  auto auto;
+    padding: 20px 0px;
+    font-size: 30px;
+      .item1{
+        margin-left: 50px;
+        font-size: 30px;
+        Line-Height: 40px;
+        position: relative;
+        top:25px;
+
+        .bold{
+          font-size: 20px;
+          font-weight:bold;
+        }
+      }
+      .item2{
+
+        height:100%;
+
+    }
+  }
+}
+
+.FAQ{
+  .headerfaq{
+    position: relative;
+    font-size: 60px;
+    width: 100%;
+    Line-Height: 60px;
+    font-family: "Impact", sans-serif;
+    color: $green;
+    text-align: center;
+    margin-right: 50%;
+    margin-left: 0%;
+    top: 25px;
+    margin-bottom:5%;
+  }
+  .question{
+    position:relative;
+    font-family: Arial;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-weight: bold;
+  }
+  .answer{
+    position:relative;
+    font-size:20px;
+    color: grey;
+
+  }
+}
+
+
+footer {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background: yellow;
+    bottom: 0%;
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      grid-gap: 0px 0px;
+      padding: 0px;
+      .logoquote {
+        text-align:left;
+        position: relative;
+        font-size: 25px;
+        font-family: "Impact", sans-serif;
+        color: black;
+        margin-left: 10px;
+          top:5px;
+        .quote {
+          text-align:left;
+          position: relative;
+          font-size: 20px;
+          font-family: "Helvetica", sans-serif;
+          color: black;
+        }
+      }
+      .interestedemail{
+        text-align:left;
+        top:15px;
+        position: relative;
+        font-size: 18px;
+        color: black;
+        font-weight: bold;
+        margin-left: 10px;
+        .email{
+          text-align:left;
+          color: blue;
+        }
+      }
+      .address{
+        text-align:left;
+        top:15px;
+        position: relative;
+        font-size: 18px;
+        color: black;
+        margin-left: 20px;
+    }
+  }
+}
