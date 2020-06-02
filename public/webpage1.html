@@ -9,17 +9,38 @@ body {
   font-family: Arial, Helvetica, Georgia, serif, sans-serif;
 
 }
-.header {
-  padding: 50px; 
-  text-align: center; 
-  background-color: #556B2F; 
-  color: white; 
-  
+	.header {
+  display: flex;
+  height:70px;
+  padding: 20px;
+  text-align: center;
+  background: #556B2F;
+  color: white;
+}
+.left{
+  flex-grow: 1;
+  text-align: left;
+}
+.center{
+
+    flex-grow: 1;
+    font-size: 30px;
+    padding-top:15px;
+    text-align: center;
+}
+
+.right{
+    flex-grow: 1;
+  text-align: right;
+  font-size: 20px;
+  padding-right: 40px;
+  padding-top:15px;
 }
 
 
 .header h1 {
   font-size: 30px; 
+height: 10px;
 }
 
 .footer {
