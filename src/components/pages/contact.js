@@ -14,21 +14,21 @@ function Contact() {
             <div className="bold">
             Email:
             </div>
-            College Post
+            College Book
             <br/>
             support@collegebook.com
             <br/><br/>
             <div className="bold">
             Phone:
             </div>
-            College Post
+            College Book
             <br/>
             4085918582
             <br/><br/>
             <div className="bold">
             Address:
             </div>
-            College Post
+            College Book
             <br/>
             41717 Palm Ave
             <br/>

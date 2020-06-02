@@ -7,7 +7,7 @@ function Footer() {
           <div className="logoquote">
             College Book
             <div className="quote">
-              "Man is still the most extraordinary computer of all."
+            Connect with alumni
             </div>
           </div>
           <div className="interestedemail">

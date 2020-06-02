@@ -28,7 +28,7 @@ function Header() {
           College
         </div>
         <div className="companynameunder">
-          Post
+          Book
         </div>
 
         <div class="navbar-collapse collapse" id="navbarNav">

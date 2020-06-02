@@ -64,7 +64,7 @@ class Homepage extends Component {
               />
 
               <div className="homeLogo">
-                College Post
+                College Book
               </div>
 
 

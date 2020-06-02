@@ -20,7 +20,7 @@ class Meettheteam extends Component {
           </div>
           <div>
             <p className="darrenquote">
-            Darren Tang is a junior at Mission San Jose High School. He co-founded College Post in order to bridge the gap between high schoolers and alumni.
+            Darren Tang is a junior at Mission San Jose High School. He co-founded College Book in order to bridge the gap between high schoolers and alumni.
             </p>
           </div>
         </div>
@@ -50,7 +50,7 @@ class Meettheteam extends Component {
             </div>
             <div>
               <p className="tiffanyquote">
-              Tiffany Zhang is a junior at Mission San Jose High School. She co-founded College Post because she wanted to bring the college visit experience online.
+              Tiffany Zhang is a junior at Mission San Jose High School. She co-founded College Book because she wanted to bring the college visit experience online.
               </p>
             </div>
           </div>
@@ -81,7 +81,7 @@ class Meettheteam extends Component {
             </div>
             <div>
               <p className="brookequote">
-              Broke Zheng is a junior at Mission San Jose High School. She co-founded College post in order to learn more about the college experience.
+              Broke Zheng is a junior at Mission San Jose High School. She co-founded College Book in order to learn more about the college experience.
               </p>
             </div>
           </div>
@@ -114,7 +114,10 @@ render() {
 
         <p className="description">
 
-          The College Prep team consists of high schoolers who believe educating students on the college experience is key.
+          The College Book team consists of high schoolers who believe educating students on the college experience is key.
+        </p>
+        <p className="description1">
+          Click on our images for more details.
         </p>
           <body>
             <div className="grid-container">
