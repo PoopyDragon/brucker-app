@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { PopupboxManager, PopupboxContainer } from "react-popupbox";
 import "react-popupbox/dist/react-popupbox.css";
 import Darren from "../../images/Darren.jpg";
-import Tiffany from "../../images/Tiffany.jpg";
+import Tiffany from "../../images/tiffany.jpg";
 import Brooke from "../../images/Brooke.jpg";
 
 
